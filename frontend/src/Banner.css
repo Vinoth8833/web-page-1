@@ -1,0 +1,38 @@
+.banner {
+    position: relative;
+    background-image: url('./assets/banner.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Add a semi-transparent overlay */
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Adjust the opacity level (0.5 here) */
+    z-index: -1; /* Place it behind the text */
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  

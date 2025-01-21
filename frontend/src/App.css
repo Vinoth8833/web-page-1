@@ -1,0 +1,60 @@
+#root {
+  width: 1390px;
+  margin: 0 auto;
+  
+}
+
+input {
+  width: 100%; /* Full width for container handling */
+  height: 40px;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+form {
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #abe8f7;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.color-red {
+  color: red;
+}
+
+
+
+.input-container {
+  position: relative;
+  width: 500px; /* Same width for input-container */
+  margin: 20px auto; /* Center the container */
+}
+
+.input-container input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px; /* Consistent padding */
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.input-container .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}

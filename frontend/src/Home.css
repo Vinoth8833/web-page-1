@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .section {
+    padding: px 0;
+    text-align: center;
+  }
+  
+  .section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Service Cards */
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+  }
+
+  
+  /* Footer Bar Styling */
+  .footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background color for footer */
+    color: white;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .footer-left {
+    font-size: 1rem;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  

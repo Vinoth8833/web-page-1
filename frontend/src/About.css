@@ -1,0 +1,80 @@
+/* General Section Styling */
+.section {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .section-content {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section Styling */
+  .about-section {
+    background-color: #e9f5ff; /* Light blue background for the About section */
+    padding-bottom: 60px;
+  }
+  
+  .about-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Space between image and text */
+    margin-top: 30px;
+  }
+  
+  .about-image-container {
+    flex: 1; /* Ensures the image takes up equal space */
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Adding subtle shadow for image */
+    transition: transform 0.3s ease;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Text Content Section */
+  .about-text-container {
+    flex: 1; /* Ensures the text takes up equal space */
+    text-align: left;
+  }
+  
+  /* Call to Action Button */
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
