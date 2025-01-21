@@ -21,6 +21,10 @@ app.post('/register',(req,res)=>{
     res.status(200).send("data send success")
 })
 
+app.get('/',(req,res)=>{
+    res.send("app is running")
+})
+
 app.post('/login',async(req,res)=>{
     const {email, password} = req.body
     try {
