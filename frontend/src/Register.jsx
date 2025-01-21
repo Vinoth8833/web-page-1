@@ -25,7 +25,7 @@ console.log(value)
 
     
     try {
-      const response = await axios.post("http://localhost:3002/register", value);
+      const response = await axios.post("https://web-page-1-fwmr.onrender.com/register", value);
       console.log("Registration successful:", response.data);
     } catch (error) {
       console.error("Error during registration:", error);

@@ -17,7 +17,7 @@ const Login = () => {
     const handleOnClick = async(e)=>{
         e.preventDefault()
         try {
-            const response =await axios.post("http://localhost:3002/login",data)
+            const response =await axios.post("https://web-page-1-fwmr.onrender.com/login",data)
             console.log(response)
             setValue(response.data)
             if(response.status === 200){
