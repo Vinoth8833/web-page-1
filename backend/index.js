@@ -10,7 +10,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect('mongodb+srv://vinothismail5734256:Vinoth123@cluster0.271bm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(pre=>console.log("db is connected"))
 .catch(err=>console.log(err))
 
